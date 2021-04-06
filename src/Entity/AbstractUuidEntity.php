@@ -6,7 +6,7 @@ use JMS\Serializer\Annotation as Serializer;
 use Doctrine\ORM\Mapping as ORM;
 use Ramsey\Uuid\UuidInterface;
 
-abstract class AbstractUuidEntity
+abstract class AbstractUuidEntity extends AbstractEntity
 {
     /**
      * @var UuidInterface
