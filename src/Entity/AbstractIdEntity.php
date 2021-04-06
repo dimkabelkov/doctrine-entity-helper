@@ -4,7 +4,7 @@ namespace Dimkabelkov\EntityHelper\Entity;
 
 use Doctrine\ORM\Mapping as ORM;
 
-abstract class AbstractIdEntity
+abstract class AbstractIdEntity extends AbstractEntity
 {
     /**
      * @ORM\Id()
