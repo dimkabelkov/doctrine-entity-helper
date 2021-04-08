@@ -2,6 +2,8 @@
 
 namespace Dimkabelkov\EntityHelper\Entity;
 
+use JMS\Serializer\Annotation as Serializer;
+
 abstract class AbstractEntity
 {
     /**
